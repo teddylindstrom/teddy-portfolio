@@ -1,0 +1,164 @@
+.hero {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+
+  padding: 140px 5% 100px;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+
+  position: absolute;
+  width: 500px;
+  height: 500px;
+
+  top: 10%;
+  right: 5%;
+
+  background: rgba(108, 99, 255, 0.12);
+
+  filter: blur(120px);
+
+  border-radius: 50%;
+
+  pointer-events: none;
+}
+
+.hero-content {
+  max-width: 850px;
+  margin: 0 auto;
+  width: 100%;
+
+  position: relative;
+  z-index: 1;
+}
+
+.hero-eyebrow {
+  margin-bottom: 20px;
+
+  font-size: 0.8rem;
+  font-weight: 700;
+
+  letter-spacing: 3px;
+
+  color: #6c63ff;
+}
+
+.hero h1 {
+  margin: 0;
+
+  font-size: clamp(3rem, 8vw, 6.5rem);
+
+  line-height: 0.95;
+
+  letter-spacing: -4px;
+
+  color: #ffffff;
+}
+
+.hero h1 span {
+  display: block;
+
+  background: linear-gradient(
+    90deg,
+    #ffffff,
+    #8b85ff
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-description {
+  max-width: 650px;
+
+  margin: 32px 0;
+
+  font-size: 1.1rem;
+
+  line-height: 1.7;
+
+  color: #a7adbd;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 14px;
+
+  margin-bottom: 40px;
+}
+
+.hero-button {
+  display: inline-flex;
+  align-items: center;
+
+  padding: 13px 20px;
+
+  border-radius: 8px;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  transition: all 0.25s ease;
+}
+
+.hero-button.primary {
+  background: #ffffff;
+  color: #0b0f19;
+}
+
+.hero-button.primary:hover {
+  transform: translateY(-2px);
+}
+
+.hero-button.secondary {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  color: #ffffff;
+
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.hero-button.secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.hero-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.hero-tech span {
+  padding: 7px 12px;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  border-radius: 6px;
+
+  font-size: 0.75rem;
+
+  color: #8f96a8;
+
+  background: rgba(255, 255, 255, 0.02);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 130px 6% 80px;
+  }
+
+  .hero h1 {
+    letter-spacing: -2px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
