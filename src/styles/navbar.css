@@ -8,6 +8,10 @@
   transition: all 0.3s ease;
 }
 
+.navbar-logo {
+  padding: 14px;;
+}
+
 .navbar-scrolled {
   padding: 14px 5%;
   background: rgba(11, 15, 25, 0.82);
@@ -15,6 +19,8 @@
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
+
+
 
 .navbar-container {
   max-width: 1200px;
