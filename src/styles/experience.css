@@ -1,0 +1,48 @@
+.experience {
+  background: #0b0f19;
+}
+
+.experience-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.experience-container h2 {
+  margin-bottom: 50px;
+
+  font-size: clamp(2.5rem, 5vw, 4rem);
+
+  color: white;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.timeline-item {
+  padding: 25px;
+
+  border-radius: 12px;
+
+  background: rgba(255,255,255,0.03);
+
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.timeline-item h3 {
+  color: white;
+  margin-bottom: 8px;
+}
+
+.timeline-item span {
+  color: #8b85ff;
+  font-size: 0.9rem;
+}
+
+.timeline-item p {
+  margin-top: 12px;
+  color: #a7adbd;
+  line-height: 1.7;
+}
