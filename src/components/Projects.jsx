@@ -20,7 +20,7 @@ function Projects() {
             </p>
 
             <a
-              href="https://github.com/"
+              href="https://github.com/teddylindstrom/BookClubExamination"
               target="_blank"
               rel="noreferrer"
             >
@@ -37,7 +37,7 @@ function Projects() {
             </p>
 
             <a
-              href="https://github.com/"
+              href="https://github.com/teddylindstrom/react-exam-2.0"
               target="_blank"
               rel="noreferrer"
             >
@@ -54,7 +54,7 @@ function Projects() {
             </p>
 
             <a
-              href="https://github.com/"
+              href="https://github.com/teddylindstrom/solaris"
               target="_blank"
               rel="noreferrer"
             >
