@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   z-index: 1000;
-  padding: 24px 5%;
+  padding: 24px 8%;
   transition: all 0.3s ease;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .navbar-scrolled {
-  padding: 14px 5%;
+  padding: 14px 8%;
   background: rgba(11, 15, 25, 0.82);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
@@ -127,11 +127,11 @@
 
 @media (max-width: 500px) {
   .navbar {
-    padding: 18px 6%;
+    padding: 18px 8%;
   }
 
   .navbar-scrolled {
-    padding: 14px 6%;
+    padding: 14px 8%;
   }
 
   .navbar-menu-button {
