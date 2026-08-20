@@ -1,12 +1,17 @@
 import "../styles/about.css";
+import profileImage from "../assets/images/profile.jpeg";
 
 function About() {
   return (
     <section id="about" className="about">
-      <div className="about-container">
+      <div className="about-image">
+    <img src={profileImage} alt="Teddy Lindström" />
+  </div>
 
-        <div className="about-heading">
-          <p className="section-label">OM MIG</p>
+  <div className="about-text">
+
+    <div className="about-heading">
+      <p className="section-label">OM MIG</p>
 
           <h2>
             Teknik möter

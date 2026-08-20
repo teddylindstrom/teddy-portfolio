@@ -65,3 +65,21 @@
     font-size: 3rem;
   }
 }
+
+/* Additional styles for the image layout */
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 400px;
+
+  border-radius: 20px;
+
+  object-fit: cover;
+
+  border: 1px solid rgba(255,255,255,0.08);
+}
