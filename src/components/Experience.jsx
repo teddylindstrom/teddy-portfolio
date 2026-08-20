@@ -11,6 +11,15 @@ function Experience() {
 
         <div className="timeline">
 
+                    <div className="timeline-item">
+            <h3>Alfa Laval</h3>
+            <span>2026</span>
+            <p>
+              Produktion av värmeväxlare och arbete i tillverkningsmiljö.
+            </p>
+          </div>
+
+
           <div className="timeline-item">
             <h3>Hanza / Lernia</h3>
             <span>2025</span>
@@ -24,14 +33,6 @@ function Experience() {
             <span>2024</span>
             <p>
               Customer Success Agent med fokus på B2B-kunder, support och digitala lösningar.
-            </p>
-          </div>
-
-          <div className="timeline-item">
-            <h3>UC AB</h3>
-            <span>2023</span>
-            <p>
-              Kundservice för både privat- och företagskunder.
             </p>
           </div>
 
@@ -66,6 +67,15 @@ function Experience() {
               Personlig assistent med ansvar för vård och omsorg.
             </p>
           </div>
+
+                    <div className="timeline-item">
+            <h3>Alfa Laval</h3>
+            <span>2010-2012</span>
+            <p>
+              Produktion av värmeväxlare och arbete i tillverkningsmiljö.
+            </p>
+          </div>
+
 
         </div>
 
