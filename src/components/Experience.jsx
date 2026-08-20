@@ -51,6 +51,22 @@ function Experience() {
             </p>
           </div>
 
+          <div className="timeline-item">
+            <h3>Jysk</h3>
+            <span>2015–2016</span>
+            <p>
+              Sales Advisor med fokus på kundservice och försäljning.
+            </p>
+          </div>
+
+          <div className="timeline-item">
+            <h3>STIL assistans</h3>
+            <span>2013-2015</span>
+            <p>
+              Personlig assistent med ansvar för vård och omsorg.
+            </p>
+          </div>
+
         </div>
 
       </div>
