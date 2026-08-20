@@ -14,31 +14,33 @@ function Contact() {
           Hör gärna av dig.
         </p>
 
-        <div className="contact-links">
-          <a href="mailto:teddy.lindstrom.work@gmail.com">
-            E-post
-          </a>
+       <div className="contact-links">
+  <a
+    href="mailto:teddy.lindstrom.work@gmail.com?subject=Kontakt via portfolio"
+  >
+    Maila mig
+  </a>
 
-          <a
-            href="https://www.linkedin.com/in/teddy-lindstr%C3%B6m-374271b2/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LinkedIn
-          </a>
+  <a
+    href="https://www.linkedin.com/in/teddy-lindstr%C3%B6m-374271b2/"
+    target="_blank"
+    rel="noreferrer"
+  >
+    LinkedIn
+  </a>
 
-          <a
-            href="https://github.com/teddylindstrom"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub
-          </a>
-        </div>
-
-      </div>
+  <a
+    href="https://github.com/teddylindstrom"
+    target="_blank"
+    rel="noreferrer"
+  >
+    GitHub
+  </a>
+</div>
+</div>
     </section>
   );
-}
+}   
+
 
 export default Contact;
